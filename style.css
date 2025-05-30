@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e8fce8; /* hijau terang */
+  color: #222;
+}
+
+header {
+  background-color: #32cd32; /* hijau cerah */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #2e8b57;
+}
+
+footer {
+  background-color: #32cd32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
