@@ -1,9 +1,43 @@
-.highlight-anim {
-  animation: pulseHighlight 1s ease-out;
+/* Tema warna Islami */
+body {
+  background-color: #f4f9f4;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-@keyframes pulseHighlight {
-  0%   { transform: scale(1); opacity: 1; }
-  50%  { transform: scale(1.05); opacity: 0.9; }
-  100% { transform: scale(1); opacity: 1; }
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #2e7d32;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.reveal section {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.reveal p, .reveal ul, .reveal ol {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
+}
+
+.reveal a {
+  color: #388e3c;
+  text-decoration: none;
+}
+
+.reveal a:hover {
+  text-decoration: underline;
+}
+
+.reveal ul {
+  margin-left: 30px;
+}
+
+.reveal img {
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
